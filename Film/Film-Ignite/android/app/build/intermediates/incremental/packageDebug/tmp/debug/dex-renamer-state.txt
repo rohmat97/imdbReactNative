@@ -1,0 +1,4 @@
+#Fri Dec 13 17:45:34 WIB 2019
+base.0=/Volumes/App&Doc/Document/train/FilmIgnite/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
