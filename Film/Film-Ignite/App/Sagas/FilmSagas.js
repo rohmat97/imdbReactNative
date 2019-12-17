@@ -17,16 +17,16 @@ import { FilmSelectors } from '../Redux/FilmRedux'
 export function * getFilm (api, action) {
   const { data } = action
   // get current data from Store
-  const currentData = yield select(FilmSelectors.getData)
+  // const currentData = yield select(FilmSelectors.getData)
   // make the call to the api
-  const response = yield call(api.getfilm, currentData)
-console.log("RESPON",response)
+  const response = yield call(api.getListFilmApi)
+// console.log("RESPON",response)
   // success?
-  if (response.ok) {
+  if (response.status === 200) {
     // You might need to change the response here - do this with a 'transform',
     // located in ../Transforms/. Otherwise, just pass the data back from the api.
-    yield put(FilmActions.filmSuccess(response.results))
-    console.log("SUKSES",response)
+    yield put(FilmActions.filmSuccess(response.data.results))
+    // console.log("SUKSES",response.data.results)
   } else {
     yield put(FilmActions.filmFailure())
     console.log("GAGAL",response)

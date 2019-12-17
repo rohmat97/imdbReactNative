@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Volumes/App&Doc/Document/train/FilmIgnite/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml",
+            "outputFile": "/Volumes/App&Doc/Document/train/imdbReactNative/Film/Film-Ignite/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml",
             "map": [
                 {
                     "source": "/Users/macbook/.gradle/caches/transforms-2/files-2.1/35dfa6ced634cb0dad081e36cc253ea9/res/values-sw/values.xml",
