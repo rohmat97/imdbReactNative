@@ -17,7 +17,7 @@
     ]
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "i18n-js": "^3.3.0",
     "native-base": "^2.12.2",
     "prop-types": "^15.7.2",
